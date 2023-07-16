@@ -5451,3 +5451,20 @@ ul.product-nav li a {
 .ns-news-crate-title {
 	margin-bottom: 24px;
 }
+.ns-news-create-description .ck.ck-content {
+	min-height: 300px;
+	/* background-color: black; */
+}
+.ns-news-file-uploading {
+	margin-left: 77px;
+}
+.ns-news-create-description .ck.ck-content p, 
+.ns-news-create-description .ck.ck-content h1, 
+.ns-news-create-description .ck.ck-content h2, 
+.ns-news-create-description .ck.ck-content h3, 
+.ns-news-create-description .ck.ck-content h4, 
+.ns-news-create-description .ck.ck-content h5, 
+.ns-news-create-description .ck.ck-content h6 {
+
+	color: black;
+}

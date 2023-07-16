@@ -482,3 +482,38 @@ $('.tabs li').click(function( event ) {
 ------------------------------------------------*/
 
 });
+
+/** Ckeditor intigrate for formsubmitting */
+
+ClassicEditor.create( document.querySelector( '#news-description' ), {
+    toolbar: {
+        items: [
+            'undo', 'redo',
+            'heading', '|',
+            'bold', 'italic', 'strikethrough', 'underline', 'code', 'subscript', 'superscript', 'removeFormat', '|',
+            'bulletedList', 'numberedList', 'todoList', '|',
+            'outdent', 'indent', '|',
+            // '-',
+            'fontSize', 'fontFamily', 'fontColor', 'fontBackgroundColor', 'highlight', '|',
+            'alignment', '|',
+            'link', 'blockQuote', 'mediaEmbed', 'codeBlock', 'htmlEmbed', '|',
+            'specialCharacters', 'horizontalLine', 'pageBreak', '|',
+            'textPartLanguage', '|',
+            'sourceEditing'
+        ],
+        shouldNotGroupWhenFull: true
+    },
+    placeholder: 'Please enter news description..................',
+    htmlSupport: {
+        allow: [
+            {
+                name: /.*/,
+                attributes: true,
+                classes: true,
+                styles: true
+            }
+        ]
+    },
+} ).catch( error => {
+    console.error( error );
+} );

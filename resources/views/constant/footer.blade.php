@@ -285,8 +285,7 @@
 
     <div class="site-info">
         <div class="wrapper">
-            <span>Copyright © All rights reserved. | <span>Newstation </span> by <a href="#">Theme
-                    Palace.</a></span>
+            <span>Copyright © All rights reserved. | <span>Newstation </span> by <a href="#">Sanchay.</a></span>
         </div>
     </div><!-- .wrapper -->
     </div><!-- .site-info -->
@@ -307,7 +306,9 @@
 <script type="text/javascript" src="{{ url('assets/js/jquery.matchHeight.js') }}"></script>
 <script type="text/javascript" src="{{ url('assets/js/theia-sticky-sidebar.js') }}"></script>
 <script type="text/javascript" src="{{ url('assets/js/packery.pkgd.js') }}"></script>
+<script src="https://cdn.ckeditor.com/ckeditor5/38.1.1/classic/ckeditor.js"></script>
 <script type="text/javascript" src="{{ url('assets/js/custom.js') }}"></script>
+
 {{-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script> --}}
 
 </body>

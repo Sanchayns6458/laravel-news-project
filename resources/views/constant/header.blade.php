@@ -63,16 +63,16 @@
                             306,341.411 576.521,611.397 612,575.997 341.459,306.011">
                             </polygon>
                         </svg>
-                        <span class="menu-label">Top Menu</span>
+                        <span class="menu-label">Menu</span>
                     </button><!-- .menu-toggle -->
 
                     <nav id="secondary-navigation" class="main-navigation" role="navigation" aria-label="Primary Menu">
                         <ul id="secondary-menu" class="menu nav-menu" aria-expanded="false">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="index.html">About</a></li>
-                            <li><a href="#">Gallery</a></li>
-                            <li><a href="#">Contact us</a></li>
-                            <li class="contact-info">
+                            <li><a href="{{ route( 'homepage' ) }}">Home</a></li>
+                            <li><a href="{{ route( 'newsCreateForm' ) }}">Create</a></li>
+                            {{-- <li><a href="#">Gallery</a></li>
+                            <li><a href="#">Contact us</a></li> --}}
+                            {{-- <li class="contact-info">
                                 <div class="entry-meta">
                                     <span class="posted-on">
                                         <span class="screen-reader-text">Posted on</span>
@@ -138,7 +138,7 @@
                                         </a>
                                     </li>
                                 </ul>
-                            </li><!-- .social-icons -->
+                            </li><!-- .social-icons --> --}}
                         </ul>
 
                         <div class="site-branding-wrapper">
@@ -257,118 +257,16 @@
                             306,341.411 576.521,611.397 612,575.997 341.459,306.011">
                             </polygon>
                         </svg>
-                        <span class="menu-label">Primary Menu</span>
+                        <span class="menu-label">News Category</span>
                     </button><!-- .menu-toggle -->
 
                     <nav id="site-navigation" class="main-navigation" role="navigation" aria-label="Primary Menu">
                         <div class="wrapper">
                             <ul id="primary-menu" class="menu nav-menu" aria-expanded="false">
-                                <li><a href="index.html">Home</a></li>
-                                <li class="menu-item-has-children">
-                                    <a href="index.html">News
-                                        <svg viewBox="0 0 129 129" class="icon-down">
-                                            <path
-                                                d="m121.3,34.6c-1.6-1.6-4.2-1.6-5.8,0l-51,51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8,0-1.6,1.6-1.6,4.2 0,5.8l53.9,53.9c0.8,0.8 1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2 0.1-5.8z" />
-                                        </svg>
-                                    </a>
-                                    <button class="dropdown-toggle" aria-expanded="false">
-                                        <span class="screen-reader-text">expand child menu</span>
-                                        <svg viewBox="0 0 129 129" class="icon-down">
-                                            <path
-                                                d="m121.3,34.6c-1.6-1.6-4.2-1.6-5.8,0l-51,51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8,0-1.6,1.6-1.6,4.2 0,5.8l53.9,53.9c0.8,0.8 1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2 0.1-5.8z" />
-                                        </svg>
-                                    </button>
-                                    <ul class="sub-menu">
-                                        <li class="menu-item-has-children">
-                                            <a href="index.html">Layout
-                                                <svg viewBox="0 0 129 129" class="icon-down">
-                                                    <path
-                                                        d="m121.3,34.6c-1.6-1.6-4.2-1.6-5.8,0l-51,51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8,0-1.6,1.6-1.6,4.2 0,5.8l53.9,53.9c0.8,0.8 1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2 0.1-5.8z" />
-                                                </svg>
-                                            </a>
-                                            <button class="dropdown-toggle" aria-expanded="false">
-                                                <span class="screen-reader-text">expand child menu</span>
-                                                <svg viewBox="0 0 129 129" class="icon-down">
-                                                    <path
-                                                        d="m121.3,34.6c-1.6-1.6-4.2-1.6-5.8,0l-51,51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8,0-1.6,1.6-1.6,4.2 0,5.8l53.9,53.9c0.8,0.8 1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2 0.1-5.8z" />
-                                                </svg>
-                                            </button>
-                                            <ul class="sub-menu">
-                                                <li><a href="index.html">Full Width Layout</a></li>
-                                                <li><a href="index-boxed.html">Boxed Layout</a></li>
-                                                <li><a href="index-frame.html">Frame Layout</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="index-sticky.html">Sticky Menu</a></li>
-                                    </ul>
-                                </li>
+                                <li><a href="{{ route( 'homepage' ) }}">Home</a></li>
                                 <li><a href="#">Fashion</a></li>
                                 <li><a href="#">Business</a></li>
                                 <li><a href="#">Travel</a></li>
-                                <li><a href="#">Education</a></li>
-                                <li><a href="#">Music</a></li>
-                                <li class="menu-item-has-children">
-                                    <a href="blog.html">Sports
-                                        <svg viewBox="0 0 129 129" class="icon-down">
-                                            <path
-                                                d="m121.3,34.6c-1.6-1.6-4.2-1.6-5.8,0l-51,51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8,0-1.6,1.6-1.6,4.2 0,5.8l53.9,53.9c0.8,0.8 1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2 0.1-5.8z" />
-                                        </svg>
-                                    </a>
-                                    <button class="dropdown-toggle" aria-expanded="false">
-                                        <span class="screen-reader-text">expand child menu</span>
-                                        <svg viewBox="0 0 129 129" class="icon-down">
-                                            <path
-                                                d="m121.3,34.6c-1.6-1.6-4.2-1.6-5.8,0l-51,51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8,0-1.6,1.6-1.6,4.2 0,5.8l53.9,53.9c0.8,0.8 1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2 0.1-5.8z" />
-                                        </svg>
-                                    </button>
-                                    <ul class="sub-menu">
-                                        <li class="menu-item-has-children">
-                                            <a href="blog.html">Blog
-                                                <svg viewBox="0 0 129 129" class="icon-down">
-                                                    <path
-                                                        d="m121.3,34.6c-1.6-1.6-4.2-1.6-5.8,0l-51,51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8,0-1.6,1.6-1.6,4.2 0,5.8l53.9,53.9c0.8,0.8 1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2 0.1-5.8z" />
-                                                </svg>
-                                            </a>
-                                            <button class="dropdown-toggle" aria-expanded="false">
-                                                <span class="screen-reader-text">expand child menu</span>
-                                                <svg viewBox="0 0 129 129" class="icon-down">
-                                                    <path
-                                                        d="m121.3,34.6c-1.6-1.6-4.2-1.6-5.8,0l-51,51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8,0-1.6,1.6-1.6,4.2 0,5.8l53.9,53.9c0.8,0.8 1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2 0.1-5.8z" />
-                                                </svg>
-                                            </button>
-                                            <ul class="sub-menu">
-                                                <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
-                                                <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
-                                                <li><a href="blog-no-sidebar.html">Blog No Sidebar</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item-has-children">
-                                            <a href="single-blog.html">Single Blog
-                                                <svg viewBox="0 0 129 129" class="icon-down">
-                                                    <path
-                                                        d="m121.3,34.6c-1.6-1.6-4.2-1.6-5.8,0l-51,51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8,0-1.6,1.6-1.6,4.2 0,5.8l53.9,53.9c0.8,0.8 1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2 0.1-5.8z" />
-                                                </svg>
-                                            </a>
-                                            <button class="dropdown-toggle" aria-expanded="false">
-                                                <span class="screen-reader-text">expand child menu</span>
-                                                <svg viewBox="0 0 129 129" class="icon-down">
-                                                    <path
-                                                        d="m121.3,34.6c-1.6-1.6-4.2-1.6-5.8,0l-51,51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8,0-1.6,1.6-1.6,4.2 0,5.8l53.9,53.9c0.8,0.8 1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2 0.1-5.8z" />
-                                                </svg>
-                                            </button>
-                                            <ul class="sub-menu">
-                                                <li><a href="single-blog-left-sidebar.html">Single Blog Left
-                                                        Sidebar</a></li>
-                                                <li><a href="single-blog-right-sidebar.html">Single Blog Right
-                                                        Sidebar</a></li>
-                                                <li><a href="single-blog-no-sidebar.html">Single Blog No Sidebar</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Arts & Culture</a></li>
-                                <li><a href="#">Others</a></li>
                             </ul>
                         </div><!-- .wrapper -->
                     </nav><!-- .main-navigation-->

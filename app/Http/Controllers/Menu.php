@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class Menu extends Controller
 {
     function homePage() {
-        return view( 'index' );
+        return view( 'page.homePage' );
     }
 }
