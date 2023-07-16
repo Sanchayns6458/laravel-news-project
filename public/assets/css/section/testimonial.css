@@ -1,0 +1,61 @@
+#newstation_pro_testimonial_section {
+	text-align: center;
+}
+#newstation_pro_testimonial_section .wrapper {
+	border: 8px solid #e6432a;
+	position: relative;
+}
+#newstation_pro_testimonial_section .section-header {
+	border-bottom: unset;
+	text-align: center;
+	text-align: center;
+    position: absolute;
+    top: -16px;
+    left: 0;
+    right: 0;
+}
+.same-background {
+	padding-top: 0;
+}
+#newstation_pro_testimonial_section .section-title {
+	background-color: #fff;
+	padding: 5px 20px;
+}
+#newstation_pro_testimonial_section .entry-title {
+	font-size: 38px;
+}
+#newstation_pro_testimonial_section svg {
+	fill: #d9d9d9;
+	width: 75px;
+	height: 75px;
+	transform: rotate(180deg);
+	position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    margin: 0 auto;
+}
+#newstation_pro_testimonial_section .entry-container {
+    padding: 50px 80px;
+}
+.second-design #newstation_pro_testimonial_section .section-title,
+.fourth-design #newstation_pro_testimonial_section .section-title,
+.third-design #newstation_pro_testimonial_section .section-title {
+	font-size: 18px;
+}
+
+
+@media screen and (min-width: 1200px) {
+ 	#newstation_pro_testimonial_section .entry-title {
+ 		font-size: 46px;
+ 	}
+}
+@media screen and (min-width: 1900px) {
+	#newstation_pro_testimonial_section .entry-title {
+ 		font-size: 52px;
+ 	}
+ 	#newstation_pro_testimonial_section .entry-container {
+    	padding: 60px 110px;
+	}
+}

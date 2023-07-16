@@ -1,0 +1,120 @@
+#newstation_pro_restaurant_slider_section article {
+	background-color: #000;
+    background-size: cover;
+    background-position: 50%;
+    padding: 280px 0;
+    position: relative;
+}
+#newstation_pro_restaurant_slider_section .wrapper {
+    position: relative;
+}
+.restaurant-content-wrapper {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    max-width: 580px;
+    text-align: left;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.restaurant-content-wrapper .entry-title {
+    color: #fff;
+    font-size: 32px;
+    margin: 0 0 22px;
+    font-weight: 600;
+    line-height: 1.25;
+}
+.restaurant-content-wrapper .entry-title a {
+	color: #fff;
+}
+.restaurant-content-wrapper .entry-title a:hover,
+.restaurant-content-wrapper .entry-title a:focus {
+	opacity: 0.8;
+}
+.restaurant-content-wrapper .entry-content {
+    color: #fff;
+    margin: 0 0 35px;
+}
+.restaurant-content-wrapper .btn {
+	margin: 5px;
+}
+.restaurant-content-wrapper .btn:not(:first-child) {
+    background-color: #fff;
+    border-color: #fff;
+    color: #f44240;
+}
+.restaurant-content-wrapper .btn:hover,
+.restaurant-content-wrapper .btn:focus,
+.restaurant-content-wrapper .btn:not(:first-child):hover,
+.restaurant-content-wrapper .btn:not(:first-child):focus {
+	background-color: #000;
+	border-color: #000;
+    color: #fff;
+}
+.restaurant-content-wrapper .btn:hover .more-icon, 
+.restaurant-content-wrapper .btn:focus .more-icon {
+	background-color: #fff;
+}
+.restaurant-content-wrapper .btn:hover .more-icon svg, 
+.restaurant-content-wrapper .btn:focus .more-icon svg {
+	fill: #1d70c9;
+}
+.slick-dotted.slick-slider {
+	margin-bottom: 0;
+}
+.slick-slide {
+    outline: none;
+}
+#newstation_pro_restaurant_slider_section ul.slick-dots {
+    bottom: 25px;
+}
+#newstation_pro_restaurant_slider_section ul.slick-dots li {
+	margin: 0 10px;
+}
+#newstation_pro_restaurant_slider_section ul.slick-dots li button:before {
+	display: none;
+}
+#newstation_pro_restaurant_slider_section ul.slick-dots li button {
+	border: 1px solid #fff;
+	width: 30px;
+	height: 10px;
+	border-radius: 0;
+}
+#newstation_pro_restaurant_slider_section ul.slick-dots li.slick-active button {
+	background-color: #fff;
+}
+
+.fourth-design .restaurant-content-wrapper {
+    right: 0;
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+@media screen and (min-width: 767px) {
+    #newstation_pro_restaurant_slider_section ul.slick-dots {
+        top: 50%;
+        right: 10px;
+        width: unset;
+    }
+    #newstation_pro_restaurant_slider_section ul.slick-dots li {
+        display: block;
+    }
+}
+@media screen and (min-width: 1024px) {
+    #newstation_pro_restaurant_slider_section article {
+        padding: 315px 0;
+    }
+}
+@media screen and (min-width: 1200px) {
+    #newstation_pro_restaurant_slider_section article {
+        padding: 375px 0;
+    }
+    .restaurant-content-wrapper .entry-title {
+        font-size: 42px;
+    }
+}

@@ -1,0 +1,18 @@
+#newstation_pro_our_service_section article {
+    border: 1px solid rgb(0 0 0 / 10%);
+    margin-bottom: 0;
+}
+#newstation_pro_our_service_section .service-item-wrapper {
+    text-align: center;
+    padding: 60px 30px;
+}
+#newstation_pro_our_service_section .icon-container {
+	margin-bottom: 15px;
+}
+#newstation_pro_our_service_section .icon-container a {
+    font-size: 52px;
+}
+#newstation_pro_our_service_section .entry-title {
+    font-size: 22px;
+    font-weight: 600;
+}

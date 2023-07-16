@@ -1,0 +1,38 @@
+#newstation_pro_special_offer {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+#newstation_pro_special_offer .wrapper {
+	position: relative;
+}
+#newstation_pro_special_offer .section-title {
+	color: #fff;
+}
+#newstation_pro_special_offer .entry-title {
+	margin-bottom: 4px;
+	font-size: 20px;
+}
+#newstation_pro_special_offer .entry-container {
+	padding: 20px 25px;
+}
+#newstation_pro_special_offer .special-offer-wrapper {
+	background-color: #fff;
+	text-align: center;
+}
+#newstation_pro_special_offer .special-offer-wrapper img {
+	height: 300px;
+	object-fit: cover;
+}
+#newstation_pro_special_offer .entry-meta a {
+	color: #808080;
+}
+#newstation_pro_special_offer .view-all {
+	text-align: center;
+	margin-top: 42px;
+}
+@media screen and (min-width: 1900px) {
+	#newstation_pro_special_offer .special-offer-wrapper img {
+		height: 320px;
+	}	
+}

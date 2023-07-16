@@ -1,0 +1,48 @@
+#newstation_pro_team_section {
+	text-align: center;
+}
+#newstation_pro_team_section .section-header {
+	margin: 0 auto;
+	margin-bottom: 42px;
+}
+#newstation_pro_team_section .featured-image {
+	padding: 280px 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50%;
+}
+#newstation_pro_team_section span.team-position {
+	color: #336aed;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+}
+#newstation_pro_team_section .social-icons {
+	margin-top: 10px;
+}
+#newstation_pro_team_section .social-icons svg {
+	fill: #000;
+}
+#newstation_pro_team_section .social-icons a:hover svg,
+#newstation_pro_team_section .social-icons a:focus svg {
+	fill: #fff;
+}
+#newstation_pro_team_section .entry-title {
+	margin: 0;
+}
+#newstation_pro_team_section .entry-container {
+    margin-top: 25px;
+}
+
+
+@media screen and (min-width: 1025px) {
+	#newstation_pro_team_section .section-header {
+		width: 850px;
+	}
+	#newstation_pro_team_section .team-wrapper:hover .featured-image {
+		padding: 210px 0;
+		border: 2px solid #0056fb;
+	}
+}
+@media screen and (min-width: 1200px) {
+
+}

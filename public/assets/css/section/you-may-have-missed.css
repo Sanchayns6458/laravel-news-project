@@ -1,0 +1,56 @@
+#newstation_pro_you_may_have_missed_section .btn {
+    background-color: unset;
+    border: unset;
+    border-radius: unset;
+    color: #000;
+    text-transform: uppercase;
+    padding: 0;
+    line-height: unset;
+    min-height: unset;
+    min-width: unset;
+    font-size: 15px;
+}
+#newstation_pro_you_may_have_missed_section .btn:hover,
+#newstation_pro_you_may_have_missed_section .btn:focus {
+    color: #e6432a;
+}
+#newstation_pro_you_may_have_missed_section .section-header .btn {
+    float: right;
+}
+#newstation_pro_you_may_have_missed_section .btn svg {
+    fill: #e6432a;
+    margin-left: 8px;
+}
+#newstation_pro_you_may_have_missed_section .entry-title {
+    margin-bottom: 0px;
+}
+.you-may-have-missed-wrapper .featured-image {
+    padding: 100px 0;
+    margin-bottom: 15px;
+}
+
+@media screen and (min-width: 567px) {
+    #newstation_pro_you_may_have_missed_section .col-4 article {
+        width: 50%;
+        float: left;
+        padding: 0 15px;
+    }
+    #newstation_pro_you_may_have_missed_section .col-4 article:nth-last-child(-n+2) {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #newstation_pro_you_may_have_missed_section .col-4 article {
+        width: 25%;
+    }
+    .you-may-have-missed-wrapper .entry-title a {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+    .you-may-have-missed-wrapper .entry-title a {
+        font-size: 24px;
+    }
+}

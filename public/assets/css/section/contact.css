@@ -1,0 +1,78 @@
+#newstation_pro_contact_section .contact-information {
+    display: block;
+    margin-bottom: 40px;
+}
+#newstation_pro_contact_section .contact-information ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#newstation_pro_contact_section .contact-information li {
+	font-size: 20px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+#newstation_pro_contact_section .contact-information i {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    background-color: #eee;
+    font-size: 30px;
+    margin-right: 20px;
+}
+#newstation_pro_contact_section textarea {
+    height: 150px;
+}
+#newstation_pro_contact_section input[type="text"], 
+#newstation_pro_contact_section input[type="email"], 
+#newstation_pro_contact_section input[type="url"], 
+#newstation_pro_contact_section input[type="password"], 
+#newstation_pro_contact_section input[type="search"], 
+#newstation_pro_contact_section input[type="number"], 
+#newstation_pro_contact_section input[type="tel"], 
+#newstation_pro_contact_section input[type="range"], 
+#newstation_pro_contact_section input[type="date"], 
+#newstation_pro_contact_section input[type="month"], 
+#newstation_pro_contact_section input[type="week"], 
+#newstation_pro_contact_section input[type="time"], 
+#newstation_pro_contact_section input[type="datetime"], 
+#newstation_pro_contact_section input[type="datetime-local"], 
+#newstation_pro_contact_section input[type="color"], 
+#newstation_pro_contact_section textarea {
+    background: #eee;
+    border: none;
+    border-radius: 5px;
+}
+
+
+@media screen and (min-width: 767px) {
+    #newstation_pro_contact_section .section-header-wrapper,
+    #newstation_pro_contact_section .section-content {
+        width: 50%;
+        float: left;
+    }
+    #newstation_pro_contact_section .section-header {
+        text-align: left;
+    }
+    #newstation_pro_contact_section .section-content {
+        padding-left: 50px;
+    }
+}
+@media screen and (min-width: 1025px) {
+    #newstation_pro_contact_section form {
+        margin: 0 -10px;
+    }
+    #newstation_pro_contact_section form p {
+        padding: 0 10px;
+        margin-bottom: 20px;
+    }
+    #newstation_pro_contact_section form p:nth-child(2),
+    #newstation_pro_contact_section form p:nth-child(3),
+    #newstation_pro_contact_section form p:nth-child(4) {
+        width: 33.33%;
+        float: left;
+    }
+}

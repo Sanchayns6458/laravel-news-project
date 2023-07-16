@@ -1,0 +1,157 @@
+#top-bar {
+    background-color: #000;
+    color: #fff;
+    padding: 0;
+    min-height: 50px;
+    z-index: 3;
+}
+#top-bar .contact-info {
+	list-style: none;
+	margin: 0;
+    padding: 10px 0;
+}
+#top-bar .contact-info li a:not(:last-child):after {
+    content: ",";
+}
+#top-bar .contact-info a {
+	color: #fff;
+    font-size: 16px;
+}
+#top-bar .contact-info a:hover,
+#top-bar .contact-info a:focus {
+    opacity: 0.9;
+}
+#top-bar .contact-info a:hover svg,
+#top-bar .contact-info a:focus svg {
+    fill: #fff;
+}
+#top-bar .contact-info svg {
+    margin-right: 8px;
+    width: 18px;
+    height: 18px;
+}
+#top-bar .contact-info span {
+	display: inline-block;
+	vertical-align: middle;
+}
+#top-bar svg.icon-up,
+#top-bar svg.icon-down {
+    margin: auto;
+    display: block;
+    cursor: pointer;
+    fill: #fff;
+}
+#top-bar ul {
+    padding: 0;
+    margin: 0;
+}
+#top-bar svg.icon-up,
+#top-bar.top-menu-active svg.icon-down {
+    display: none;
+}
+#top-bar.top-menu-active svg.icon-up {
+    display: block;
+}
+.secondary-menu {
+    float: right;
+}
+#top-bar ul li {
+    float: left;
+    list-style: none;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+#top-bar .col-1 .hentry {
+    text-align: center;
+}
+#top-bar .col-1 ul li {
+	float: none;
+	display: inline-block;
+}
+#top-bar .col-1 .secondary-menu {
+	float: none;
+}
+.secondary-menu a {
+    color: #738f9d;
+}
+#top-bar svg {
+	fill: #fff;
+}
+#top-bar .social-icons li a svg {
+    width: 18px;
+    height: 18px;
+}
+#top-bar ul.social-icons li {
+	margin-right: 15px;
+}
+#top-bar ul.social-icons li:last-child {
+	margin-right: 0;
+}
+#top-bar ul.social-icons li a:hover svg,
+#top-bar ul.social-icons li a:focus svg {
+	fill: #fff;
+}
+#top-bar .wrapper {
+    display: none;
+    padding-top: 15px;
+    margin-top: 8px;
+}
+#top-bar {
+    cursor: pointer;
+    min-height: auto;
+    padding: 10px;
+    background-color: #000;
+}
+#top-bar ul li {
+    float: none;
+    text-align: center;
+}
+#top-bar .col-2 .hentry {
+    width: 100%;
+}
+#top-bar .secondary-menu {
+    float: none;
+    text-align: center;
+    padding: 10px 0;
+}
+#top-bar.top-menu-active:before {
+    content: "";
+    background-color: #fff;
+    opacity: 0.4;
+    position: absolute;
+    top: 35px;
+    width: 100%;
+    left: 0;
+    height: 1px;
+}
+
+@media screen and (min-width: 1025px) {
+    #top-bar.top-menu-active:before {
+        content: unset;
+    }
+    #top-bar {
+        padding: 0;
+    }
+    #top-bar svg.dropdown-icon {
+        display: none !important;
+    }
+    #top-bar .col-2 .hentry {
+        width: 50%;
+        float: left;
+    }
+    #top-bar .wrapper {
+        display: block !important;
+        height: auto !important;
+        padding-top: unset;
+        margin-top: unset;
+    }
+    #top-bar ul li {
+        float: left;
+    }
+    #top-bar .contact-info li:not(:last-child) {
+        margin-right: 50px;
+    }
+    #top-bar .secondary-menu {
+        float: right;
+    }
+}

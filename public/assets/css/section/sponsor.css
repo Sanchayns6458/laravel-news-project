@@ -1,0 +1,13 @@
+#newstation_pro_sponsor_section article {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#newstation_pro_sponsor_section img {
+    max-height: 120px;
+}
+
+@media screen and (min-width: 1025px) {
+	#newstation_pro_sponsor_section article {
+		margin-bottom: 0;
+	}
+}

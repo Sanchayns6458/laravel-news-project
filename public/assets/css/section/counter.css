@@ -1,0 +1,44 @@
+#newstation_pro_counter_section {
+    position: relative;
+    background-size: cover;
+    background-position: 50%;
+    padding: 120px 0;
+}
+#newstation_pro_counter_section .overlay {
+    opacity: 0.6;
+}
+#newstation_pro_counter_section .wrapper {
+	position: relative;
+}
+#newstation_pro_counter_section .section-title,
+#newstation_pro_counter_section .section-subtitle {
+	color: #fff;
+}
+#newstation_pro_counter_section .counter-item {
+	text-align: center;
+	position: relative;
+	z-index: 1;
+}
+#newstation_pro_counter_section .counter-icon {
+    font-size: 36px;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 100%;
+    background-color: rgb(255 255 255 / 20%);
+    margin: 0 auto 15px;
+}
+#newstation_pro_counter_section .counter-value,
+#newstation_pro_counter_section .counter-title {
+    font-size: 62px;
+    color: #fff;
+    margin: 0 0 10px;
+    font-weight: 600;
+}
+#newstation_pro_counter_section .counter-title {
+    font-size: 18px;
+    color: #fff;
+    margin: 0;
+    font-weight: 400;
+}

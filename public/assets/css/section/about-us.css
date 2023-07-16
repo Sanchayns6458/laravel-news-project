@@ -1,0 +1,65 @@
+#newstation_pro_about_us_section .featured-image {
+    background-size: cover;
+    background-position: 50%;
+    padding-bottom: 100%;
+    margin-bottom: 30px;
+}
+#newstation_pro_about_us_section .entry-container {
+    max-width: 800px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#newstation_pro_about_us_section .entry-content {
+    margin-bottom: 30px;
+}
+
+@media screen and (min-width: 767px) {
+    #newstation_pro_about_us_section .section-header {
+        text-align: left;
+    }
+    #newstation_pro_about_us_section article {
+        display: table;
+        width: 100%;
+        position: relative;
+    }
+    #newstation_pro_about_us_section article .featured-image {
+        width: 45%;
+        display: table-cell;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    #newstation_pro_about_us_section article .entry-container {
+        width: 55%;
+        display: table-cell;
+        padding: 75px;
+        text-align: left;
+        float: right;
+    }
+    #newstation_pro_about_us_section .section-title {
+        margin-bottom: 20px;
+        font-size: 26px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #newstation_pro_about_us_section .section-title {
+        font-size: 32px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    #newstation_pro_about_us_section .section-title {
+        font-size: 38px;
+        margin-bottom: 25px;
+    }
+}
+@media screen and (min-width: 1900px) {
+    #newstation_pro_about_us_section .section-title {
+        font-size: 42px;
+    }
+}

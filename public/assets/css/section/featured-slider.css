@@ -1,0 +1,179 @@
+#newstation_pro_featured_slider_section article {
+	background-color: #000;
+    background-size: cover;
+    background-position: 50%;
+    padding: 280px 0;
+    position: relative;
+}
+#newstation_pro_featured_slider_section .wrapper {
+    position: relative;
+}
+.featured-content-wrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    max-width: 690px;
+    margin: 0 auto;
+    text-align: center;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.featured-content-wrapper .entry-title {
+    color: #fff;
+    font-size: 32px;
+    margin: 0 0 22px;
+    font-weight: 600;
+    line-height: 1.25;
+}
+.featured-content-wrapper .entry-title a {
+	color: #fff;
+}
+.featured-content-wrapper .entry-title a:hover,
+.featured-content-wrapper .entry-title a:focus {
+	opacity: 0.8;
+}
+.featured-content-wrapper .entry-content {
+    color: #fff;
+    margin: 0 0 35px;
+}
+.featured-content-wrapper .btn {
+	margin: 5px;
+}
+.featured-content-wrapper .btn:not(:first-child) {
+    background-color: #fff;
+    border-color: #fff;
+    color: #1d70c9;
+}
+.featured-content-wrapper .btn:hover,
+.featured-content-wrapper .btn:focus,
+.featured-content-wrapper .btn:not(:first-child):hover,
+.featured-content-wrapper .btn:not(:first-child):focus {
+	background-color: #000;
+	border-color: #000;
+    color: #fff;
+}
+.featured-content-wrapper .btn:hover .more-icon, 
+.featured-content-wrapper .btn:focus .more-icon {
+	background-color: #fff;
+}
+.featured-content-wrapper .btn:hover .more-icon svg, 
+.featured-content-wrapper .btn:focus .more-icon svg {
+	fill: #1d70c9;
+}
+.slick-dotted.slick-slider {
+	margin-bottom: 0;
+}
+.slick-slide {
+    outline: none;
+}
+.slick-prev:before, 
+.slick-next:before {
+    content: "";
+	background-image: url('assets/images/down-arrow.svg'7);
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    opacity: 1;
+    background-size: contain;
+    background-repeat: no-repeat;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+.slick-prev:before {
+	-webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+.slick-prev,
+.slick-next {
+	background-color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 0;
+    opacity: 1;
+    z-index: 1;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.slick-arrow {
+	background-color: #1d70c9;
+	border-radius: 10px;
+}
+.slick-prev {
+	left: 25px;
+}
+.slick-next {
+	right: 25px;
+}
+#newstation_pro_featured_slider_section .slick-prev {
+	left: 25px;
+}
+#newstation_pro_featured_slider_section .slick-next {
+	right: 25px;
+}
+#newstation_pro_featured_slider_section .slick-arrow {
+	opacity: 0;
+	visibility: hidden;
+	background-color: #fff;
+	border-radius: 0;
+}
+#newstation_pro_featured_slider_section:hover .slick-arrow,
+#newstation_pro_featured_slider_section:focus .slick-arrow {
+	opacity: 1;
+	visibility: visible;
+}
+#newstation_pro_featured_slider_section .slick-arrow:hover,
+#newstation_pro_featured_slider_section .slick-arrow:focus {
+	background-color: #1d70c9;
+}
+
+#newstation_pro_featured_slider_section ul.slick-dots {
+    bottom: 25px;
+}
+#newstation_pro_featured_slider_section ul.slick-dots li {
+	margin: 0 10px;
+}
+#newstation_pro_featured_slider_section ul.slick-dots li button:before {
+	display: none;
+}
+#newstation_pro_featured_slider_section ul.slick-dots li button {
+	border: 1px solid #fff;
+	width: 30px;
+	height: 10px;
+	border-radius: 0;
+}
+#newstation_pro_featured_slider_section ul.slick-dots li.slick-active button {
+	background-color: #fff;
+}
+
+
+@media screen and (min-width: 1024px) {
+    #newstation_pro_featured_slider_section article {
+        padding: 315px 0;
+    }
+}
+@media screen and (min-width: 1200px) {
+    #newstation_pro_featured_slider_section article {
+        padding: 375px 0;
+    }
+    .featured-content-wrapper .entry-title {
+        font-size: 42px;
+    }
+}

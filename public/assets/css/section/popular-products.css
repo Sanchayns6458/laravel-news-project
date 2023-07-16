@@ -1,0 +1,54 @@
+#newstation_pro_popular_products .featured-post-item {
+    position: relative;
+}
+#newstation_pro_popular_products .featured-image {
+    position: relative;
+    background-size: cover;
+    background-position: 50%;
+    padding: 150px 0;
+}
+#newstation_pro_popular_products .featured-image a:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.2;
+}
+#newstation_pro_popular_products .featured-image a:after {
+    position: absolute;
+    content: "";
+    top: 15px;
+    right: 15px;
+    bottom: 15px;
+    left: 15px;
+    border: 1px solid rgba(255,255,255,.95);
+    box-shadow: 0 0 0 15px rgb(255 255 255 / 10%);
+    will-change: opacity;
+    transition: opacity .6s,transform .4s cubic-bezier(.25,.46,.45,.94);
+    pointer-events: none;
+}
+#newstation_pro_popular_products .entry-title {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: 0;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+#newstation_pro_popular_products .entry-title a {
+    background-color: #fff;
+    display: inline-block;
+    padding: 9px 20px;
+}
